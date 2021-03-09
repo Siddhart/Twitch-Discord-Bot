@@ -1,0 +1,28 @@
+{
+  "name": "twitch-discord-bot",
+  "version": "1.0.0",
+  "description": "Notify your community whenever you go live!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhartt/Twitch-Discord-Notifyer.git"
+  },
+  "keywords": [
+    "twitch",
+    "discord",
+    "notification",
+    "bot"
+  ],
+  "author": "Siddhart G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhartt/Twitch-Discord-Notifyer/issues"
+  },
+  "homepage": "https://github.com/Siddhartt/Twitch-Discord-Notifyer#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
