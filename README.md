@@ -7,7 +7,7 @@ This Discord bot makes use of the [Official Twitch Api](https://dev.twitch.tv/do
 # Installation
 First you will have to clone the project.
 ```console
-$ git clone https://github.com/Siddhartt/Discord-Twitch-Stream-Notifyer
+$ git clone https://github.com/Siddhartt/Twitch-Stream-Notifyer
 ```
 
 After that open the config.json file
