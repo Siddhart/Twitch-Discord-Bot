@@ -2,7 +2,7 @@
   "name": "twitch-discord-bot",
   "version": "1.0.0",
   "description": "Notify your community whenever you go live!",
-  "main": "index.js",
+  "main": "Twitch-Discord-Notifyer/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/Siddhartt/Twitch-Discord-Notifyer#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
-  }
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "reqeust": "^2.81.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
 }

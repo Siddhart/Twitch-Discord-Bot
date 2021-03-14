@@ -1,1 +1,18 @@
-{}
+{
+    "DiscordServerId": "DISCORD_GUILD_ID(REQUIRED)",
+    "token": "DISCORD_API_BOT_TOKEN(REQUIRED)",
+    "twitch_clientID": "TWITCH_API_CLIENT_ID(REQUIRED)",
+    "twitch_secret": "TWITCH_API_SECRET(REQUIRED)",
+    "cron": "*/10 * * * * *",
+    "channelID": "CHANNELD_ID(REQUIRED)",
+    "roleID": "ROLE_ID(NOT REQUIRED)",
+    "channels": [
+        {
+            "ChannelName": "STREAMER_NAME(REQUIRED)",
+            "DiscordServer": "DISCORD_SERVER_INVITE_URL(NOT REQUIRED)",
+            "twitch_stream_id": "",
+            "discord_message_id": ""
+        }
+    ],
+    "authToken": ""
+}
