@@ -2,7 +2,7 @@
 The Twitch Stream Notifyer is a Discord bot that will be able to keep your members up-to-date whenever a streamer goes live.
 
 # How does it work?
-This Discord bot makes use of the [Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the emssage after X amount of time (default 10 minutes).
+This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the message after X amount of time (default 10 minutes).
 
 # Installation
 First you will have to clone the project.
@@ -83,7 +83,7 @@ $ npm i request
 ```
 
 ## Run the bot
-After you updatet the config.json and installed the dependencies you can run the final command.
+After you updated the config.json and installed the dependencies you can run the final command.
 Use the command in the same directory as the index.js file.
 ```console
 $ node index.js
