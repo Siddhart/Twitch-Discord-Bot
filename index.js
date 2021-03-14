@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const Stream = require("./modules/getStreams.js")
 const Auth = require("./modules/auth.js")
-const Channel = require("./modules/ChannelData.js")
+const Channel = require("./modules/channelData.js")
 const config = require('./config.json')
 
 //ready
