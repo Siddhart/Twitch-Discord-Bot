@@ -1,5 +1,5 @@
 # Twitch Stream Notifyer
-The Twitch Stream Notifyer is a Discord bot that will be able to keep your members up-to-date whenever a streamer goes live.
+Discord bot that will be able to keep your members up-to-date whenever a streamer goes live. Uses the Official Twitch Api
 
 # How does it work?
 This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the message after X amount of time (default 10 minutes).
