@@ -40,7 +40,7 @@ After that open the config.json file
 - channelID - Copy and Paste the Discord channel ID here (The notifications will be send in this channel).
 - roleID - Copy and past the Discord Role ID here (This field is NOT required. Please assign "" to this if you don't want to tag any roles).
 
-NOTE: Do NOT add anything in the field that are already empty. These fields will automatically update.
+NOTE: Do NOT add anything in the fields that are already empty. These fields will automatically update.
 
 ## Add streamers
 In the config.json there is a channels array. If you want to add streamers you just add new objects to this array.
