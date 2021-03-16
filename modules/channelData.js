@@ -10,8 +10,7 @@ async function getData(channelName, clientID, authkey) {
             `https://api.twitch.tv/helix/search/channels?query=${channelName}`,{headers:headers},
             (error, res, body) => {
                 if (error) {
-                    console.error(error)
-                    return
+                    return console.error(error)
                 }
                 try{
                     resolve(JSON.parse(body).data[0])
