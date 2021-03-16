@@ -4,7 +4,9 @@ Discord bot that will be able to keep your members up-to-date whenever a streame
 # How does it work?
 This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the message after X amount of time (default 10 minutes).  
 
-<img src="https://cdn.discordapp.com/attachments/738800765023551660/821513567265226803/unknown.png" />
+<img src="https://cdn.discordapp.com/attachments/738800765023551660/821513567265226803/unknown.png" />  
+
+Check out [stoiss2's channel on Twitch](https://www.twitch.tv/stoiss2)
 
 # Installation
 First you will have to clone the project.
