@@ -81,9 +81,7 @@ An array with multiple streamers will look something like this:
 ## dependencies
 In order for the bot to work properly you will have to install some dependencies
 ```console
-$ npm i discord.js
-$ npm i cron
-$ npm i request
+$ npm install
 ```
 
 ## Run the bot
