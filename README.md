@@ -79,11 +79,9 @@ An array with multiple streamers will look something like this:
 ```
 
 ## dependencies
-In order for the bot to work properly you will have to install some dependencies
+In order for the bot to work properly you will have to install the node packages discord.js, cron and request. Use the following command to install the dependencies.
 ```console
-$ npm i discord.js
-$ npm i cron
-$ npm i request
+$ npm install
 ```
 
 ## Run the bot
