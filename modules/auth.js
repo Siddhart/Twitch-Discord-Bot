@@ -6,8 +6,7 @@ async function getKey(clientID, clientSecret) {
             `https://id.twitch.tv/oauth2/token?client_id=${clientID}&client_secret=${clientSecret}&grant_type=client_credentials`,
             (error, res, body) => {
                 if (error) {
-                    console.error(error)
-                    return
+                    return console.error(error)
                 }
                 try{
                     resolve(JSON.parse(body).access_token)
