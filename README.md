@@ -1,8 +1,12 @@
 # Twitch Stream Notifyer
-The Twitch Stream Notifyer is a Discord bot that will be able to keep your members up-to-date whenever a streamer goes live.
+Discord bot that will be able to keep your members up-to-date whenever a streamer goes live. Uses the Official Twitch Api
 
 # How does it work?
-This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the message after X amount of time (default 10 minutes).
+This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/). You will be able to assign unlimited streamers to the bot. The bot uses the api to fetch the channel data to see if the streamer is live. If the streamer is live it will send a message in the assigned channel and it will also tag the assigned role. You will be able to choose the update time. If the streamer is still live the bot will update the message after X amount of time (default 10 minutes).  
+
+<img src="https://cdn.discordapp.com/attachments/738800765023551660/821513567265226803/unknown.png" />  
+
+Check out [stoiss2's channel on Twitch](https://www.twitch.tv/stoiss2)
 
 # Installation
 First you will have to clone the project.
@@ -40,7 +44,7 @@ After that open the config.json file
 - channelID - Copy and Paste the Discord channel ID here (The notifications will be send in this channel).
 - roleID - Copy and past the Discord Role ID here (This field is NOT required. Please assign "" to this if you don't want to tag any roles).
 
-NOTE: Do NOT add anything in the field that are already empty. These fields will automatically update.
+NOTE: Do NOT add anything in the fields that are already empty. These fields will automatically update.
 
 ## Add streamers
 In the config.json there is a channels array. If you want to add streamers you just add new objects to this array.
@@ -75,11 +79,9 @@ An array with multiple streamers will look something like this:
 ```
 
 ## dependencies
-In order for the bot to work properly you will have to install some dependencies
+In order for the bot to work properly you will have to install the node packages discord.js, cron and request. Use the following command to install the dependencies.
 ```console
-$ npm i discord.js
-$ npm i cron
-$ npm i request
+$ npm install
 ```
 
 ## Run the bot
