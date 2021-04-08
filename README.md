@@ -1,4 +1,4 @@
-# Twitch Stream Notifyer
+# Twitch Stream Notification Bot
 Discord bot that will be able to keep your members up-to-date whenever a streamer goes live. Uses the Official Twitch Api
 
 # How does it work?
