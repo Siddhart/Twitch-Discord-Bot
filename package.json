@@ -2,7 +2,7 @@
   "name": "twitch-discord-bot",
   "version": "1.0.0",
   "description": "Notify your community whenever you go live!",
-  "main": "Twitch-Discord-Notifyer/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +14,13 @@
     "twitch",
     "discord",
     "notification",
-    "bot"
+    "bot",
+    "nodejs",
+    "stream",
+    "live"
   ],
   "author": "Siddhart G.",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Siddhartt/Twitch-Discord-Notifyer/issues"
   },
