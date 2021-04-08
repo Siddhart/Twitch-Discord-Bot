@@ -46,6 +46,8 @@ After that open the config.json file
 - roleID - Copy and past the Discord Role ID here (This field is NOT required. Please assign "" to this if you don't want to tag any roles).
 
 NOTE: Do NOT add anything in the fields that are already empty. These fields will automatically update.
+Some of values in the config.json template have "(NOT REQUIRED)" in it. If you are not using this replace it with an empty string.
+```"DISCORD_SERVER_INVITE_URL(NOT REQUIRED)" --> ""```
 
 ## Add streamers
 In the config.json there is a channels array. If you want to add streamers you just add new objects to this array.
