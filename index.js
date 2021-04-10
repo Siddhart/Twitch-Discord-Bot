@@ -51,7 +51,7 @@ var Check = new CronJob(config.cron,async function () {
                 },
                 {
                     "name": "Twitch:",
-                    "value": `[watch stream](https://www.twitch.tv/${StreamData.user_login})`
+                    "value": `[Watch stream](https://www.twitch.tv/${StreamData.user_login})`
                 },
                 (chan.DiscordServer ? {
                     "name": "Discord Server:",
