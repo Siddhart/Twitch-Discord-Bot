@@ -3,7 +3,7 @@
     "token": "DISCORD_API_BOT_TOKEN(REQUIRED)",
     "twitch_clientID": "TWITCH_API_CLIENT_ID(REQUIRED)",
     "twitch_secret": "TWITCH_API_SECRET(REQUIRED)",
-    "cron": "*/10 * * * * *",
+    "cron": "*/10 * * * *",
     "channelID": "CHANNELD_ID(REQUIRED)",
     "roleID": "ROLE_ID(NOT REQUIRED)",
     "channels": [
