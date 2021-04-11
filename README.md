@@ -1,4 +1,4 @@
-# Twitch Stream Notification Bot
+# Twitch Notification Discord Bot
 This Discord bot will automatically send a message and tag the assigned role whenever a streamer went live.
 The notifications will update every 10 minutes(default) while the streamer is live.
 
