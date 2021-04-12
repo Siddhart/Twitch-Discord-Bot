@@ -13,7 +13,19 @@ async function getData(channelName, clientID, authkey) {
                     return console.error(error)
                 }
                 try{
-                    resolve(JSON.parse(body).data[0])
+                    const channelTempData = JSON.parse(body).data
+                    var doesExist = false
+                    
+                    for(let i = 0; i < channelTempData.length; i++){
+                        if((channelTempData[i].broadcaster_login).toLowerCase() == channelName.toLowerCase()){
+                            doesExist = true
+                            resolve(JSON.parse(body).data[i])
+                        }
+                    }
+
+                    if(!doesExist){
+                        resolve(false)
+                    }
                 }catch(e){
                     reject(e)
                 }
