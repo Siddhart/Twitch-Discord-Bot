@@ -12,7 +12,7 @@ Check out [stoiss2's channel on Twitch](https://www.twitch.tv/stoiss2)
 # Installation
 First you will have to clone the project.
 ```console
-$ git clone https://github.com/Siddhartt/Twitch-Stream-Notifyer
+$ git clone https://github.com/Siddhart/Twitch-Stream-Notifyer
 ```
 
 After that open the config.json file
