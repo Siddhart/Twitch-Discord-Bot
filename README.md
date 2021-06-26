@@ -1,4 +1,4 @@
-# Twitch Notification Discord Bot
+# Twitch Discord Bot
 This Discord bot will automatically send a message and tag the assigned role whenever a streamer went live.
 The notifications will update every 10 minutes(default) while the streamer is live.
 
@@ -12,7 +12,7 @@ Check out [stoiss2's channel on Twitch](https://www.twitch.tv/stoiss2)
 # Installation
 First you will have to clone the project.
 ```console
-$ git clone https://github.com/Siddhart/Twitch-Stream-Notifyer
+$ git clone https://github.com/Siddhart/Twitch-Discord-Bot
 ```
 
 After that open the config.json file
