@@ -7,7 +7,6 @@ This Discord bot uses [The Official Twitch Api](https://dev.twitch.tv/docs/api/)
 
 <img src="https://cdn.discordapp.com/attachments/738800765023551660/821513567265226803/unknown.png" />  
 
-Check out [stoiss2's channel on Twitch](https://www.twitch.tv/stoiss2)
 
 # Installation
 First you will have to clone the project.
