@@ -94,4 +94,4 @@ $ node index.js
 ```
 Congratulations! You have successfully setup the bot.
 If there are any errors please send me a dm on Discord
-Siddhartt#2194
+siddhartt
